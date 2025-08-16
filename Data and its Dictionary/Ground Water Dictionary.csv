@@ -1,0 +1,48 @@
+column,type,label,description
+GLOBAL_ID,text,Global ID,The unique identifier for the facility or site.
+BUSINESS_NAME,text,Business Name,The facility name of the site.
+STREET_NUMBER,text,Street Number,The street number for the location of the site.
+STREET_NAME,text,Street Name,The street name for the location of the site.
+CITY,text,City,The city of the site.
+STATE,text,State,The state of the site.
+ZIP,text,Zip,The zip code of the site.
+COUNTY,text,County,The county of the site.
+EPA_REGION,text,EPA Region,The EPA Region of the site.
+LATITUDE,numeric,Latitude,Latitudinal ordinate for the project.
+LONGITUDE,numeric,Longitude,Longitudinal ordinate for the project.
+COORDINATE_SOURCE,text,Coordinate Source,The source of the latitude/longitude.
+CASE_TYPE,text,Case Type,The type of site.
+STATUS,text,Status,The most recent status of the site.
+STATUS_DATE,timestamp,Status Date,The date of the most recent status of the site.
+CLAIM_NO,text,CUF Claim No,A comma separated list of Cleanup Fund SCUFIIS Claim Numbers.
+CLAIM_STATUS,text,CUF Claim Status,A comma separated list of Cleanup Fund SCUFIIS Claim Statuses.
+LEAD_AGENCY,text,Lead Agency,The name of the lead agency for the site.
+CASEWORKER,text,Case Manager,The name of the lead agency case manager for the site.
+LOCAL_AGENCY,text,Local Agency,The local agency for the site.
+RB_CASE_NUMBER,text,Regional Board Case Number,The Regional Water Board case number for the site.
+LOC_CASE_NUMBER,text,Local Agency Case Number,The Local Agency case number for the site.
+FILE_LOCATION,text,File Location,The location of the physical case file for the site.
+POTENTIAL_CONTAMINANTS_OF_CONCERN,text,Potential Contaminants of Concern,Potential contaminants of concern.
+QUANTITY_RELEASED_GALLONS,text,Quantity Released in Gallons,The quantity of released contaminant in gallons.
+POTENTIAL_MEDIA_OF_CONCERN,text,Potential Media of Concern,"Potential media of concern (soil, groundwater, etc)."
+SITE_HISTORY,text,Site History,Background information about the site.
+BEGIN_DATE,timestamp,Begin Date,The date the case began – a blank date indicates that the begin date is unknown.
+LEAK_REPORTED_DATE,text,Leak Reported Date,The date the leak was reported.
+HOW_DISCOVERED,text,How Discovered,How the leak was discovered.
+HOW_DISCOVERED_DESCRIPTION,text,How Discovered Description,Description of how the leak was discovered.
+DISCHARGE_SOURCE,text,Discharge Source,The source of the discharge.
+DISCHARGE_CAUSE,text,Discharge Cause,The cause of the discharge.
+STOP_METHOD,text,Stop Method,How the leak was stopped.
+STOP_DESCRIPTION,text,Stop Description,Description of how the leak was stopped.
+NO_FURTHER_ACTION_DATE,text,No Further Action Date,The date of No Further Action (date the site was closed).
+CALWATER_WATERSHED_NAME,text,CalWater Watershed Name,CalWater Watershed Name.
+DWR_GROUNDWATER_SUBBASIN_NAME,text,DWR Groundwater Sub-Basin Name,DWR Groundwater Sub-Basin Name.
+DISADVANTAGED_COMMUNITY,text,Disadvantaged Community,Disadvantaged Community Designation.
+CALENVIROSCREEN3_SCORE,text,CalEnviroscreen 3.0 Score,CalEnviroScreen 3.0 Percentile.
+CALENVIROSCREEN4_SCORE,text,CalEnviroscreen 4.0 Score,CalEnviroScreen 4.0 Percentile.
+MILITARY_DOD_SITE,text,Military Site,Is this site a Military or DoD site (Y/N)?
+FACILITY_PROJECT_SUBTYPE,text,Facility or Project Subtype,Identifies the facility or project subtype (if applicable).
+RWQCB_REGION,text,Regional Board Office,Regional Board office based on the site's location.
+2022_ASSEMBLY_DISTRICT,text,2022 Assembly District,2022 Assembly District based on the site's location.
+2022_SENATE_DISTRICT,text,2022 Senate District,2022 Senate District based on the site's location.
+2022_CONGRESSIONAL_DISTRICT,text,2022 Congressional District,2022 Congressional District based on the site's location.
